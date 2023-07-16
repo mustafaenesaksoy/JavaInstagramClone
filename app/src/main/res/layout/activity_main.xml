@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="249dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="E-mail giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="253dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="parola giriniz"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="111dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:onClick="giris"
+        android:text="giriş yap"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:onClick="kayit"
+        android:text="Kayıt ol"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949820053500",
+    "project_id": "javainstagram-3f9d9",
+    "storage_bucket": "javainstagram-3f9d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949820053500:android:6c2cc7d72c09c6bb248479",
+        "android_client_info": {
+          "package_name": "com.example.firebaseinstagramclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949820053500-7q4sld9sqluf9uecsao2qi43tfgd3ajn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMFf9erIn1NkJBK1B9NX4zu96xEwwzu4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949820053500-7q4sld9sqluf9uecsao2qi43tfgd3ajn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
